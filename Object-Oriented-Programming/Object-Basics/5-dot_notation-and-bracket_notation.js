@@ -1,0 +1,18 @@
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  "president of Kenya": false,
+};
+
+// Using dot notation to update the firstName
+person.firstName = "Uhuru";
+
+// Using bracket notation to update the lastName and "president of Kenya"
+person["lastName"] = "Kenyatta";
+person["president of Kenya"] = true;
+
+// Output the updated person object
+console.log("Updated Person:");
+console.log("First Name:", person.firstName);
+console.log("Last Name:", person.lastName);
+console.log("Who is the president of Kenya?", person.firstName + " " + person.lastName);
