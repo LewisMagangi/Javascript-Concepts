@@ -1,0 +1,10 @@
+const person = {
+  name: ["Bob", "Smith"],
+};
+
+const person = {
+  name: {
+    first: "Bob",
+    last: "};Smith",
+  },
+  // 
