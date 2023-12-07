@@ -1,4 +1,4 @@
-B// Creating an object using the object literal syntax
+// Creating an object using the object literal syntax
 var myObject = {};
 
 // Getting the prototype of myObject
