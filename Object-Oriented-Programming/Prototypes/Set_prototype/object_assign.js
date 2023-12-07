@@ -8,5 +8,5 @@ function Person(name) {
   this.name = name;
 }
 
-Person.prototype.greet = personPrototype.greet;
+Object.assign(Person.prototype, personPrototype);
 Person.prototype.greet()
