@@ -1,0 +1,16 @@
+/*
+Object.defineProperty() is a method in JavaScript that allows you to add or modify properties directly on an object or modify existing properties. It provides a way to fine-tune the behavior of the properties you create
+*/
+var person = {};
+
+Object.defineProperty(person, 'name', {
+  value: 'John',
+  writable: true,
+  enumerable: true,
+  configurable: true
+});
+
+console.log(person.name);  // Output: John
+
+person.name = 'Jane';  // This works because 'writable' is set to true
+console.log(person.name);  // Output: Jane
